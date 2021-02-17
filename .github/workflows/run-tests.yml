@@ -37,7 +37,7 @@ jobs:
       - name: Coveralls
         env:
           GITHUB_TOKEN: ${{ secrets.github_token }}
-          flag-name: run-${{ matrix.node-version }}
+          flag-name: run-${{ matrix.node-version }} ${{ matrix.node-version }}
           parallel: true
         run: |
           coveralls --service=github
