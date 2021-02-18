@@ -34,10 +34,19 @@ jobs:
           npm test
           npm run coverage
 
-      - name: Coveralls
-        env:
-          GITHUB_TOKEN: ${{ secrets.github_token }}
-          flag-name: run-${{ matrix.node-version }}
+      - name: Coveralls Parallel
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.github_token }}
+          flag-name: run-tests (${{ matrix.node-version }}, ${{ matrix.mongodb-version }})
           parallel: true
-        run: |
-          coveralls --service=github
+
+  finish:
+    needs: run-tests
+    runs-on: ubuntu-latest
+    steps:
+    - name: Coveralls Finished
+      uses: coverallsapp/github-action@master
+      with:
+        github-token: ${{ secrets.github_token }}
+        parallel-finished: true
