@@ -1,6 +1,6 @@
 Uptime
 ======
-[![Build Status](https://travis-ci.com/Accruent/uptime.svg?branch=master)](https://travis-ci.com/Accruent/uptime)
+[![tests](https://github.com/Accruent/uptime/actions/workflows/run-tests.yml/badge.svg?branch=master)](https://github.com/Accruent/uptime/actions/workflows/run-tests.yml)
 [![Coverage Status](https://coveralls.io/repos/github/Accruent/uptime/badge.svg?branch=master)](https://coveralls.io/github/Accruent/uptime?branch=master)
 
 A remote monitoring application using Node.js, MongoDB, and Twitter Bootstrap.
