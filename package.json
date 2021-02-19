@@ -14,7 +14,7 @@
     "express": "4.17.1",
     "express-error-handler": "^1.1.0",
     "express-partials": "0.3.0",
-    "express-rate-limit": "5.2.3",
+    "express-rate-limit": "5.2.6",
     "js-yaml": "3.14.0",
     "jsonschema": "1.4.0",
     "method-override": "^3.0.0",
