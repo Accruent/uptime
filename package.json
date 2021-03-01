@@ -22,7 +22,7 @@
     "mongoose": "5.2.x",
     "mongoose-lifecycle": "1.0.0",
     "node-hipchat": "0.4.5",
-    "nodemailer": "6.4.17",
+    "nodemailer": "6.5.0",
     "semver": "7.3.4",
     "socket.io": "^2.1.1",
     "spore": "0.1.6",
