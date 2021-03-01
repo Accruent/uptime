@@ -24,7 +24,7 @@
     "node-hipchat": "0.4.5",
     "nodemailer": "6.4.17",
     "semver": "7.3.4",
-    "socket.io": "^2.1.1",
+    "socket.io": "^3.1.2",
     "spore": "0.1.6",
     "stdio": "2.1.1",
     "sync-request": "6.1.0",
